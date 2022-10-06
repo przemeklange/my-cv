@@ -93,7 +93,7 @@ const AboutPopup = ({ open, close, aboutData }) => {
               </div>
               <div className="text">
                 <p>
-                I'm <span>web designer & front‑end developer</span> focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.
+                I am <span>web designer & front‑end developer</span> focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.
                 </p>
               </div>
             </div>

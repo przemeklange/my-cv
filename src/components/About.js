@@ -59,7 +59,6 @@ const About = () => {
           <div className="edrea_tm_about">
             <div className="left">
               <div className="image">
-                <img src="img/thumbs/1-1.jpg" alt="" />
                 <div className="main" data-img-url="img/about/pl.jpg" />
               </div>
             </div>
@@ -79,7 +78,7 @@ const About = () => {
                   improves the lives of those around me.
                   </p>
                   <p>
-                  Pages I've been working on:  fonix.pl, ranigast.pl, toramide.pl, ibuvit.pl, mallorcaweek.pl, epolana.com, herbapol.pl, mojeoczy.pl, dbajonerki.pl, rossmann.pl, mmierzejewska.pl, enterol.pl, hevirancomfort.pl
+                  Pages I ve been working on:  fonix.pl, ranigast.pl, toramide.pl, ibuvit.pl, mallorcaweek.pl, epolana.com, herbapol.pl, mojeoczy.pl, dbajonerki.pl, rossmann.pl, mmierzejewska.pl, enterol.pl, hevirancomfort.pl
                 </p>
               </div>
               <div className="edrea_tm_button">

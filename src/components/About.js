@@ -77,6 +77,9 @@ const About = () => {
                   I am <span>web designer & front‑end developer</span> focused on crafting clean &
                   user‑friendly experiences, I am passionate about building excellent software that
                   improves the lives of those around me.
+                  </p>
+                  <p>
+                  Pages I've been working on:  fonix.pl, ranigast.pl, toramide.pl, ibuvit.pl, mallorcaweek.pl, epolana.com, herbapol.pl, mojeoczy.pl, dbajonerki.pl, rossmann.pl, mmierzejewska.pl, enterol.pl, hevirancomfort.pl
                 </p>
               </div>
               <div className="edrea_tm_button">

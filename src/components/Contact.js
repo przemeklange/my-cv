@@ -19,10 +19,10 @@ const Contact = () => {
     } else {
       emailjs
         .send(
-          "service_seruhwu", // service id
-          "template_21aw58z", // template id
+          "service_mndyaxr", // service id
+          "template_v5uo1cm", // template id
           mailData,
-          "Q3pccdLZhU-mZT7tQ" // public api
+          "W1ldX1DZhxD8yPbxF" // public api
         )
         .then(
           (response) => {
@@ -58,7 +58,7 @@ const Contact = () => {
                     <i className="icon-location" />
                     <span>
                       <a href="#" className="href_location">
-                        Avon str. 22, NYC, USA
+                       Poznań, Poland
                       </a>
                     </span>
                   </div>
@@ -67,7 +67,7 @@ const Contact = () => {
                   <div className="list_inner">
                     <i className="icon-phone" />
                     <span>
-                      <a href="#">+77 022 155 02 02</a>
+                      <a href="tel:609942231">+48 609 942 231</a>
                     </span>
                   </div>
                 </li>
@@ -75,15 +75,15 @@ const Contact = () => {
                   <div className="list_inner">
                     <i className="icon-mail-1" />
                     <span>
-                      <a href="mailto:example@gmail.com">example@gmail.com</a>
+                      <a href="mailto:przemek.lange@gmail.com">przemek.lange@gmail.com</a>
                     </span>
                   </div>
                 </li>
                 <li>
                   <div className="list_inner">
-                    <i className="icon-facebook-rect" />
+                    <i className="icon-git" />
                     <span>
-                      <a href="https://www.facebook.com">@facebookNick</a>
+                      <a target='_blank' href="https://www.github.com/przemeklange">@przemeklange</a>
                     </span>
                   </div>
                 </li>
@@ -151,7 +151,6 @@ const Contact = () => {
                   <div className="edrea_tm_button">
                     <input className="a" type="submit" value="Submit Message" />
                   </div>
-                  {/* If you want change mail address to yours, just open "modal" folder >> contact.php and go to line 4 and change detail to yours.  */}
                 </form>
               </div>
             </div>

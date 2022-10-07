@@ -74,11 +74,11 @@ const AboutPopup = ({ open, close, aboutData }) => {
                 </li>
               </ul>
             </div>
-            <div className="edrea_tm_button full">
+            {/* <div className="edrea_tm_button full">
               <a href="img/about/1.jpg" download>
                 Download CV
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="right">

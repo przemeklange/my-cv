@@ -16,11 +16,11 @@ const MobileHeader = () => {
     <Fragment>
       <div className="edrea_tm_topbar">
         <div className="topbar_inner">
-          <div className="logo">
-            <a href="#">
-              <img src="img/logo/logo.png" alt="" />
-            </a>
-          </div>
+        <div className="logo">
+          <a href="#" onClick={() => changeNav("home")}>
+            <h2>P.Lange</h2>
+          </a>
+        </div>
           <div className="trigger">
             <div
               className={`hamburger hamburger--slider ${
@@ -38,31 +38,26 @@ const MobileHeader = () => {
         <div className="inner">
           <div className="menu_list">
             <ul className="transition_link">
-              <li className={activeNav("home")}>
-                <a href="#home" onClick={() => onClick("home")}>
-                  Home
-                </a>
-              </li>
-              <li className={activeNav("about")}>
-                <a href="#about" onClick={() => onClick("about")}>
-                  About
-                </a>
-              </li>
-              <li className={activeNav("portfolio")}>
-                <a href="#portfolio" onClick={() => onClick("portfolio")}>
-                  Portfolio
-                </a>
-              </li>
-              <li className={activeNav("news")}>
-                <a href="#news" onClick={() => onClick("news")}>
-                  News
-                </a>
-              </li>
-              <li className={activeNav("contact")}>
-                <a href="#contact" onClick={() => onClick("contact")}>
-                  Contact
-                </a>
-              </li>
+            <li className={activeNav("home")}>
+              <a href="#home" onClick={() => changeNav("home")}>
+                Home
+              </a>
+            </li>
+            <li className={activeNav("about")}>
+              <a href="#about" onClick={() => changeNav("about")}>
+                About
+              </a>
+            </li>
+            <li className={activeNav("projects")}>
+              <a href="#projects" onClick={() => changeNav("projects")}>
+                Projects
+              </a>
+            </li>
+            <li className={activeNav("contact")}>
+              <a href="#contact" onClick={() => changeNav("contact")}>
+                Contact
+              </a>
+            </li>
             </ul>
           </div>
         </div>

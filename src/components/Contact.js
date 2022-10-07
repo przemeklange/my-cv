@@ -83,7 +83,7 @@ const Contact = () => {
                   <div className="list_inner">
                     <i className="icon-git" />
                     <span>
-                      <a target='_blank' href="https://www.github.com/przemeklange">@przemeklange</a>
+                      <a href="https://www.github.com/przemeklange">@przemeklange</a>
                     </span>
                   </div>
                 </li>
